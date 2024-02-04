@@ -10,21 +10,31 @@
 }
 
 img {
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.body {
+    width: 600px;
 }
 
 h1 {
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: goldenrod;
-    font-size: 48px;
+    font-size: 64px;
+}
+
+.text {
+    font-size: 20px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 span {
     font-weight: bold;
     font-size: 24px;
+    color: goldenrod;
 }
