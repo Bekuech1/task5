@@ -3,7 +3,7 @@
     width: 800px;
     text-align: center;
     justify-content: center;
-    border-style: groove;
+    border: 0.5px black solid;
 }
 
 .class {
@@ -13,14 +13,17 @@
 
 img {
     height: 600px;
-    width: 500px;
-    border-radius: 20px;
+    width: 800px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 120px;
 }
 
 .body {
-    width: 600px;
-    text-align: center;
-    margin-left: 100px;
+    width: 750px;
+    text-align: left;
+    margin-left: 20px;
     margin-right: none;
 }
 
@@ -28,10 +31,17 @@ h1 {
     text-transform: uppercase;
     color: goldenrod;
     font-size: 64px;
+    text-decoration: underline;
 }
 
 .text {
     font-size: 20px;
+    margin-top: top;
+}
+
+#txt {
+    margin-top: none;
+    margin-bottom: 50px;
 }
 
 p {
