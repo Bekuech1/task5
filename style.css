@@ -1,7 +1,9 @@
 .all {
-    height: 2000px;
-    width: 1800px;
+    height: 1200px;
+    width: 800px;
+    text-align: center;
     justify-content: center;
+    border-style: groove;
 }
 
 .class {
@@ -17,6 +19,9 @@ img {
 
 .body {
     width: 600px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: none;
 }
 
 h1 {
